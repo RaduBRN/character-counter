@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/responsive-character-counter-made-with-react-and-tailwind-bs-PoYcyB_)
+- Live Site URL: [Netlify](https://startling-nasturtium-be9961.netlify.app/)
 
 ### Built with
 
