@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DM_Sans/DMSans-VariableFont.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-dmSans {
+    font-family: "DMSans", sans-serif;
+  }
+
+  .no-spinner {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+  }
+}
+
+.app-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.light.app-background {
+  background-image: url("./assets/images/bg-light-theme.png");
+}
+
+.dark.app-background {
+  background-image: url("./assets/images/bg-dark-theme.png");
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
